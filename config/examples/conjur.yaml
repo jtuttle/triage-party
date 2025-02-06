@@ -17,9 +17,37 @@ settings:
   min_similarity: 0.8
   repos:
     - https://github.com/cyberark/conjur
-    - https://github.com/cyberark/conjur-cli-go
     - https://github.com/cyberark/secretless-broker
+    - https://github.com/cyberark/helm-charts
+    - https://github.com/cyberark/conjur-oss-helm-chart
+    - https://github.com/cyberark/conjur-openapi-spec
+    - https://github.com/cyberark/conjur-api-ruby
+    - https://github.com/cyberark/conjur-api-go
+    - https://github.com/cyberark/conjur-api-python
+    - https://github.com/cyberark/conjur-api-java
+    - https://github.com/cyberark/conjur-sdk-java
+    - https://github.com/cyberark/conjur-api-dotnet
+    - https://github.com/cyberark/conjur-cli-go
+    - https://github.com/cyberark/summon
+    - https://github.com/cyberark/summon-conjur
+    - https://github.com/cyberark/summon-keyring
+    - https://github.com/cyberark/summon-aws-secrets
+    - https://github.com/cyberark/summon-s3
+    - https://github.com/cyberark/conjur-authn-k8s-client
     - https://github.com/cyberark/secrets-provider-for-k8s
+    - https://github.com/cyberark/conjur-k8s-csi-provider
+    - https://github.com/cyberark/sidecar-injector
+    - https://github.com/cyberark/kubernetes-conjur-deploy
+    - https://github.com/conjurdemos/kubernetes-conjur-demo
+    - https://github.com/cyberark/conjur-service-broker-go
+    - https://github.com/cyberark/cloudfoundry-conjur-buildpack
+    - https://github.com/conjurdemos/cloudfoundry-conjur-demo
+    - https://github.com/cyberark/ansible-conjur-collection
+    - https://github.com/cyberark/ansible-conjur-host-identity
+    - https://github.com/cyberark/conjur-puppet
+    - https://github.com/cyberark/terraform-provider-conjur
+    - https://github.com/cyberark/conjur-opentelemetry-tracer
+    - https://github.com/cyberark/conjur-authn-iam-client-python
 
   # Who should automatically be considered a project member?
   # See: https://developer.github.com/v4/enum/commentauthorassociation/
