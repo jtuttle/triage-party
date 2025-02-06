@@ -13,10 +13,13 @@
 # limitations under the License.
 ---
 settings:
-  name: generic-kubernetes
+  name: C&I Projects
   min_similarity: 0.8
   repos:
     - https://github.com/cyberark/conjur
+    - https://github.com/cyberark/conjur-cli-go
+    - https://github.com/cyberark/secretless-broker
+    - https://github.com/cyberark/secrets-provider-for-k8s
 
   # Who should automatically be considered a project member?
   # See: https://developer.github.com/v4/enum/commentauthorassociation/
