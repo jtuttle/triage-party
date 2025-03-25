@@ -62,6 +62,15 @@ settings:
   # - tstromberg
 
 collections:
+  - id: latest
+    name: Latest
+    dedup: true
+    rules:
+      - latest-issues
+      - latest-prs
+      - issue-zombies
+      - pr-zombies
+
   - id: daily
     name: Daily Triage
     dedup: true
@@ -190,6 +199,25 @@ collections:
       - closed-milestone-issues
 
 rules:
+  ### Latest ###
+  latest-issues:
+    name: "Latest Issues"
+    resolution: "Triage or mark as 'good-first-issue' to leave for the community"
+    type: issue
+    filters:
+      - updated: -30d
+      - tag: "recv"
+      - label: "!good-first-issue"
+
+  latest-prs:
+    name: "Latest PRs"
+    resolution: "Triage"
+    type: pull_request
+    filters:
+      - updated: -30d
+      - tag: "!draft"
+      - tag: "recv"
+
   ### Daily Triage ####
   issue-needs-priority-overdue:
     name: "Unprioritized issues older than 7 days"
@@ -353,7 +381,17 @@ rules:
       - state: closed
       - updated: -7d
       - tag: recv
-      - comments-while-closed: ">1"
+      - comments-while-closed: ">0"
+  
+  pr-zombies:
+    name: "Screaming into the void"
+    resolution: "Reopen, or ask folks to open a new PR"
+    type: pull_request
+    filters:
+      - state: closed
+      - updated: -7d
+      - tag: recv
+      - comments-while-closed: ">0"
 
   # Issues needing closure
   issue-stale-needs-info:
