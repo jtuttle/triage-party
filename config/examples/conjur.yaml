@@ -48,6 +48,7 @@ settings:
     - https://github.com/cyberark/terraform-provider-conjur
     - https://github.com/cyberark/conjur-opentelemetry-tracer
     - https://github.com/cyberark/conjur-authn-iam-client-python
+    - https://github.com/cyberark/conjur-quickstart
 
   # Who should automatically be considered a project member?
   # See: https://developer.github.com/v4/enum/commentauthorassociation/
