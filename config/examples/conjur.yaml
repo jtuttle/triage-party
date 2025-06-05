@@ -19,6 +19,7 @@ settings:
     - https://github.com/cyberark/conjur
     - https://github.com/cyberark/secretless-broker
     - https://github.com/cyberark/helm-charts
+    - https://github.com/cyberark/oss-template
     - https://github.com/cyberark/conjur-oss-helm-chart
     - https://github.com/cyberark/conjur-openapi-spec
     - https://github.com/cyberark/conjur-api-ruby
