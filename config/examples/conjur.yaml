@@ -43,6 +43,8 @@ settings:
     - https://github.com/cyberark/conjur-service-broker-go
     - https://github.com/cyberark/cloudfoundry-conjur-buildpack
     - https://github.com/conjurdemos/cloudfoundry-conjur-demo
+    - https://github.com/conjurdemos/conjur-intro
+    - https://github.com/conjurdemos/Accelerator-K8s-External-Secrets
     - https://github.com/cyberark/ansible-conjur-collection
     - https://github.com/cyberark/ansible-conjur-host-identity
     - https://github.com/cyberark/conjur-puppet
